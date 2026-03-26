@@ -1,0 +1,40 @@
+/*css of body, will make background light blue and any text white*/
+body{
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
+
+/*makes h1 title with a 40 px font size, and a "roboto", san-serif font*/
+h1 {
+    font-family: "roboto", sans-serif;
+    font-size: 40px;
+}
+
+/*aligns all text in h1 and main to the center*/
+h1, main {
+    text-align: center;
+}
+
+/*styles Roll Button; makes background orange, gives it a border radius of 20px, 30px padding, a font-size of 30px and a font-family of "Oswald, sans-serif*/
+#rollButton {
+    background-color: rgb(255, 145, 0);
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+/*Makes lines bigger with 3 line height. 20px font size and font-family: "Roboto", sans-serif; added as well*/
+main {
+    font-size: 20px;
+    line-height: 3;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Gives paragraphs gold background with solid white borders. Makes the text black in the paragraphs too. */
+p {
+    background-color: rgba(253, 198, 45, 0.774);
+    border-style: solid;
+    border-color: white;
+    color: black;
+}

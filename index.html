@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <title>Dice Game</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--fonts by google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>   
+        <body>
+            <header>
+                <h1>Dice Game</h1>
+            </header>
+        <main>
+            <!--button id ="rollButton" to roll the dice and perform the functions needed to find results-->
+            <button id ="rollButton">Roll Dice</button>
+                    <!--id of rolls to get the results of rolls-->
+                    <div id="rolls">
+                    <!--To get what player rolled-->
+                    <p id="playerDice">Player rolls</p>
+                    <!--To get what computer rolled-->
+                    <p id="computerDice">Computer rolls</p>
+                    <!--To get what player rolled in total-->
+                    <p id="playerTotal">Player Total:</p>
+                    <!--To get what computer rolled in total-->
+                    <p id="computerTotal">Computer Total:</p>
+                    <!--To see who won that roll-->
+                    <p id="winner">Roll two dice for fun to see if you can beat the computer!</p> 
+                    <!--To see who is winning the game.-->
+                    <p id="score">Your score is 0 and the computer's score is 0.</p>
+                </div>
+        </main>
+        <footer></footer>
+        <!--Connects the javascript to the HTML-->
+        <script src="script.js"></script>
+    </body> 
+</html>
